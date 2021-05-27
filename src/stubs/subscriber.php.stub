@@ -1,0 +1,19 @@
+<?php
+
+
+namespace DummyNamespace;
+
+use InfoSalud\CampaingMonitor\Subscribers\Subscriber;
+
+class DummyClass extends Subscriber
+{
+     /**
+     * Get the list Id.
+     *z
+     * @return string
+     */ 
+    protected function getListId()
+    {
+        return 'list-id-comes-here';
+    }
+}

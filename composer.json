@@ -1,0 +1,26 @@
+{
+    "name": "infosalud/campaing-monitor",
+    "description": "A package to send transactional emails with campaing monitor",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Jaime Castrillo",
+        "email": "jaime@infosalud.app"
+    }],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "InfoSalud\\CampainMonitor\\": "src/"
+        }
+    },
+    "require": {
+        "campaignmonitor/createsend-php": "^6.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "InfoSalud\\CampaingMonitor\\CampaingMonitorServiceProvider"
+            ]
+        }
+    }
+}

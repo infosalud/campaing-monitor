@@ -1,0 +1,34 @@
+<?php
+
+
+namespace DummyNamespace;
+
+use InfoSalud\CampaingMonitor\Emails\Email;
+
+
+class DummyClass extends Email
+{
+     /**
+     * Get the email id.
+     *z
+     * @return string
+     */ 
+    protected function getEmailId()
+    {
+        return 'email-id-comes-here';
+    }
+
+
+    /**
+     * Get an array of variables for the CM email.
+     *
+     * @param  $user
+     * @return array
+     */
+    public function variables($user)
+    {
+        return [
+            /* 'variable1' => $user['variable1'], */
+        ];
+    }
+}
