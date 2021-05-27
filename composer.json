@@ -10,7 +10,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "InfoSalud\\CampainMonitor\\": "src/"
+            "InfoSalud\\CampaingMonitor\\": "src/"
         }
     },
     "require": {
