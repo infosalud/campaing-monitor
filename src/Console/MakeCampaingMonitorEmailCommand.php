@@ -12,7 +12,7 @@ class MakeCampaingMonitorEmailCommand extends GeneratorCommand
                             {name : The Class name} 
                             {--id=her-comes-the-id-from-campaing-monitor : The Email id from Campaing Monitor}';
 
-    protected $description = 'Create a new Caminpaing Monitor Email class';
+    protected $description = 'Create a new Campaing Monitor Email class';
 
     protected function getStub()
     {

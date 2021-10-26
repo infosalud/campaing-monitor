@@ -12,7 +12,7 @@ class MakeCampaingMonitorSubscriberCommand extends GeneratorCommand
                             {name : The Class name} 
                             {--id=her-comes-the-id-from-campaing-monitor-list : The List id from Campaing Monitor}';
 
-    protected $description = 'Create a new Caminpaing Monitor Subscriber class';
+    protected $description = 'Create a new Campaing Monitor Subscriber class';
 
     protected function getStub()
     {
